@@ -3,7 +3,7 @@ const inputs = [...document.querySelectorAll('.input')];
 const keypad = document.getElementById('keypad');
 
 import { theme_1, theme_2, theme_3 } from './themes.js';
-import { addKey, calculator, changeTheme, deleteSub, reset } from './function';
+import { addKey, calculator, changeTheme, deleteSub, reset } from './function.js';
 
 const getTheme = {
   theme_1,
