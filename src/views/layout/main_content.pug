@@ -1,0 +1,37 @@
+include ../components/key.pug
+
+main.main
+  header.header
+    h2.header__title calc
+    .switch-container
+      h3.header__subtitle theme
+      form#switch.switch
+        .field
+          label(for="theme_1").label 1
+          input(type="radio", name="theme" id="theme_1" value="theme_1").input.input--active
+        .field
+          label(for="theme_2").label 2
+          input(type="radio" name="theme" id="theme_2" value="theme_2").input
+        .field
+          label(for="theme_3").label 3
+          input(type="radio", name="theme" id="theme_3" value="theme_3").input
+  .display#display |
+  .keypad#keypad
+    +key('7')
+    +key('8')
+    +key('9')
+    +key('DEL')
+    +key('4')
+    +key('5')
+    +key('6')
+    +key('+')
+    +key('1')
+    +key('2')
+    +key('3')
+    +key('-')
+    +key('.')
+    +key('0')
+    +key('/')
+    +key('*')
+    +key('RESET')
+    +key('=')

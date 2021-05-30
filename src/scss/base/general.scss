@@ -1,0 +1,36 @@
+@use '../abstracts/mixins.scss' as mx;
+
+:root {
+  --backgroundColor: hsl(222, 26%, 31%);
+  --keypad: hsl(223, 31%, 20%);
+  --screenText: #fafafa;
+  --screen: hsl(224, 36%, 15%);
+  --primaryKey: hsl(225, 21%, 49%);
+  --secondaryKey: hsl(6, 63%, 50%);
+  --thirdKey: hsl(30, 25%, 89%);
+  --primaryTextColor: hsl(221, 14%, 31%);
+  --primaryShadow: hsl(224, 28%, 35%);
+  --secondShadow: hsl(6, 70%, 34%);
+  --thirdShadow: hsl(28, 16%, 65%);
+  --whiteColor: #fafafa;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Spartan', sans-serif;
+  background-color: var(--backgroundColor);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
