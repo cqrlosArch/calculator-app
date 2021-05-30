@@ -7,15 +7,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://recipe-page.cqrlosarch.vercel.app/">
+    <a href="https://calculator-app-cqrlosarch.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/solutions/6oFB5CSJVGzlosBSF4a3">
+    <a href="https://www.frontendmentor.io/solutions/calculator-app-sass-and-pug-aN5jsN0lR">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht">
+    <a href="https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29">
       Challenge
     </a>
   </h3>
