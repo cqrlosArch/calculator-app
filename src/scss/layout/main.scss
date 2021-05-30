@@ -59,9 +59,10 @@
   position: relative;
   display: grid;
   place-items: center;
-  margin: 0 0.2rem;
+  margin: 0 0.3rem;
   opacity: 0;
   height: 100%;
+  padding:0 1rem;
   &::after {
     content: '';
     position: relative;
