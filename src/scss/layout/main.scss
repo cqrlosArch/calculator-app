@@ -100,17 +100,10 @@
   gap: 1rem;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  // grid-template-areas:
-  //   'num7 num8 num9 del'
-  //   'num4 num5 num6 som'
-  //   'num1 num2 num3 men'
-  //   'dote zero divi mul'
-  //   'reset reset res res';
 }
 
 .key {
-  height: 4.3rem;
-  min-width: 4.3rem;
+  height: 3.8rem;
   border-radius: 0.5rem;
   display: flex;
   align-items: center;
