@@ -4,7 +4,7 @@ const display = document.getElementById('display');
 const keypad = document.getElementById('keypad');
 const styles = document.documentElement.style;
 
-import { theme_1, theme_2, theme_3 } from './themes';
+import { theme_1, theme_2, theme_3 } from './themes.js';
 
 let logarithm = '';
 
