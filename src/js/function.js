@@ -5,7 +5,8 @@ const display = document.getElementById('display');
 let logarithm = '';
 
 const calculator = (log = logarithm) => {
-  logarithm = eval(log !== '' && log.toString());
+  if (log === '') return;
+  logarithm = eval(log).toString().slice(0, 13);
   return (display.textContent = logarithm);
 };
 
@@ -20,7 +21,8 @@ const addKey = (key) => {
 };
 
 const deleteSub = () => {
-  logarithm = logarithm.substring(0, logarithm.length - 1);
+  if (logarithm === '') return;
+  logarithm = logarithm.toString().substring(0, logarithm.length - 1);
   if (logarithm === '') {
     logarithm = '';
     return (display.textContent = '|');
